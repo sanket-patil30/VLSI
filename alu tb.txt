@@ -27,7 +27,9 @@
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
-USE ieee.numeric_std.ALL;
+use IEEE.NUMERIC_STD.ALL;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
  
 ENTITY tb_alu_4bit IS
 END tb_alu_4bit;
